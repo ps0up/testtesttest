@@ -1,0 +1,138 @@
+/*------------- RESET -------------*/
+
+{
+    padding: 1;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+
+/*------------- INITIAL STYLE -------------*/
+
+body {
+    background-color: #a8b6bf;
+    width: 75%;
+    font-family: 'roboto', serif;
+    margin: auto;
+    color: #feffff;
+    line-height: 2em;
+    display: block;
+}
+
+h1 {
+    font-weight: normal;
+    color: #f0eceb;
+    text-align: center;
+    font-size: 5.96em;
+    font-style: bold;
+    line-height: 1em;
+    position: relative;
+    margin: 0 -9999rem;
+    padding: .25rem 9999rem;
+    margin-top: 1.5em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 2.441em;
+    color: #f0eceb;
+    text-align: left;
+    font-style: italic;
+    font-style: bold;
+    margin-top: 1em;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    top: 0;
+    left: 0;
+}
+
+.banner > .banner-image {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    top: 0;
+    left: 0;
+}
+
+
+/*------------------------ NAV --------------------*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: auto;
+    background-color: #edd9c0;
+    float: left;
+    opacity: 0.8;
+    color: whitesmoke;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: darkgrey;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    color: darkgrey;
+    font-size: 1em;
+    margin: 1% 5%
+}
+
+
+/*------- TYPOGRAPHY ------ */
+
+header {
+    width: 100%;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+    margin-top: 1em;
+}
+
+blockquote {
+    text-align: left;
+    padding: 0.5 0 0.5em 0.5em;
+    font-size: 1.563em;
+    line-height: 1.5em;
+    color: #f0eceb;
+    font-style: italic;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+div {
+    font-style: italic;
+    margin-bottom: : 1em;
+    margin-top: center;
+    line-height: 3em;
+    font-size: 0.707em;
+    text-align: center;
+}
